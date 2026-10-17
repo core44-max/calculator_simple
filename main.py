@@ -5,4 +5,6 @@ b = 0
 print(f"{a} + {b} = {add(a, b)}")
 print(f"{a} - {b} = {substrack(a, b)}")
 print(f"{a} * {b} = {multiply(a, b)}")
-print(f"{a} / {b} = {divide(a, b)}")
+res = divide(a, b)
+if res is not None:
+    print(f"{a} / {b} = {divide(a, b)}")
